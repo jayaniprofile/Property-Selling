@@ -1,0 +1,85 @@
+<html>
+
+	<head>
+		<title> Home</title>
+			<link rel="stylesheet" href="Style.css"> <!--css-->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/hh2.jpeg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+	</head>
+
+	<body class= "body" id "b1">
+<div class="bg"></div>
+
+		<header>
+		
+		<nav class="colur1-nav" id="nav1">	<!--nevigation bar-->
+			<section id="section1" >
+
+				<a class="navClassItem"  href="home.html" >Home</a>
+				<a class="navClassItem"  href="about.html" >About</a>
+				<a class="navClassItem"  href="contacts.html" >Contacts</a>
+
+			</section>
+		</nav>
+		
+		</header>
+		
+
+
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+			<article class="" id="artical2">
+				<input id="txtName" type="text" name=Location placeholder="Location......" size=20>	<!--create textfield to enter the location-->
+			</article>
+
+			
+			<article class="" id="artical3">
+			<input type="button" id="btnQueryString" value="Search" />		<!--add search option-->
+			</article>
+			 
+			<script type="text/javascript">		<!--link with filter page-->
+				$(function () {
+					$("#btnQueryString").bind("click", function () {
+						var url = "filter.html?name=" + encodeURIComponent($("#txtName").val()) + "&technology="  ;
+						window.location.href = url;
+					});
+				});
+			</script>
+		 
+			
+			
+			
+			
+			
+<footer>	<!--footer-->
+	<a href="https://www.facebook.com/jayani.pathirana.9028"> <img src="images/fb.jpg" alt="fb" style="width: 50px;height: 40px;border-radius: 10px"></a>
+	<a href="www.linkedin.com/in/jayani-pathirana-7208371a9"> <img src="images/in.jpg" alt="linkedin" style="width: 50px;height: 40px;border-radius: 10px"></a>
+	<a href="jayani.20191204@iit.ac.lk"> <img src="images/email.jpg" alt="email" style="width: 50px;height: 40px;border-radius: 10px"></a>
+	<a href="https://youtu.be/XvqE39VpV58"> <img src="images/utube.jpg" alt="utube" style="width: 50px;height: 40px;border-radius: 10px"></a>
+</footer>
+
+	</body>
+</html>
