@@ -1,0 +1,181 @@
+body{
+	background-color: #e6e6ff;
+ background-image: url("images/.jpeg");
+}
+@media screen and (max-width: 200px) {
+  .navClassItem {
+    float: none;
+    width: 10%;
+  }
+.tabs{
+    float: none;
+    width: 50%;
+  }
+.article33{
+    float: none;
+    width: 100%;
+  }
+.form5 {
+    float: none;
+    width: 10%;
+  }
+}
+.form3 {
+    float: none;
+    width: 100%;
+  }
+}
+.form2 {
+    float: none;
+    width: 100%;
+  }
+}
+
+#img2{
+	width:100px;
+	hight:100px;}
+#img1{
+	width:200px;
+	hight:200px;}
+.navClassItem{
+	font-size: 25px;
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 40px;
+}
+#nav1{
+	top:0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	height: 40px;	
+}
+#section1{
+	padding-left: 700px;
+}
+
+footer {
+    position: absolute;
+    top: 630px;
+    width:100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+  }
+#artical1{
+	
+	position: absolute;
+	top: 630px;
+	right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#artical2{
+	
+	position: absolute;
+	top: 300px;
+	right: 600px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#artical3{
+	
+	position: absolute;
+	top: 300px;
+	right: 500px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#artical33{
+	
+	position: absolute;
+	top: 200px;
+	right: 500px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+        text-decoration:bold;
+}
+#articalli{
+	
+	position: absolute;
+	top: 550px;
+	left: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#sectionP{
+	
+	position: absolute;
+	top: 200px;
+	right: 700px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+        text-decoration:bold;
+}
+
+
+#form2{
+	position: absolute;
+	top: 200px;
+	left: 350px;
+}
+#form3{
+	position: absolute;
+	top: 200px;
+	background-color: #ccccff;
+	left: 600px;
+	width: 50%
+	
+}
+#form4{
+	position: absolute;
+	top: 240px;
+	left: 1000px;
+	height: 20px;
+	width: 100px;
+	padding: 7px;
+	background-color:#f2d9e6;
+}
+#form5{
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	right:600px;
+	background-color:#e6f9ff;
+	width:30%;
+	padding: 7px;
+}
+
+#f1{
+	position: absolute;
+	top: 240px;
+	left: 1000px;
+	height: 20px;
+	width: 100px;
+	padding: 7px;
+}
+
+#btnQueryString1{
+	position: absolute;
+	top: 450px;
+	left: 900px;
+	height: 50px;
+	width: 200px;
+}
+
+/*Attribute selectors */
+a:visited {
+  color:black;
+}
+a:hover {
+  color: hotpink;
+}
+
+[class|=colur1] {
+	background-color: #595959;
+  }
+h1{
+	text-align: center;
+	
+}
