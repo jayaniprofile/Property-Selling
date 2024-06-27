@@ -1,0 +1,15 @@
+ <!--images for property pages-->
+.gallery1{
+    margin: 1px 1px;
+}
+
+.gallery1 img{
+    width:400px;
+    hight:400px;
+    padding:5px;
+}
+.gallery2 img{
+    width:200px;
+    hight:200px;
+    padding:5px;
+}

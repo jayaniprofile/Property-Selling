@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Properties</title>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="jQueryJ.js"></script> <!--jQuery-->
+		
+		<script src="jquery-ui.js"></script>
+		<link href="jquery-ui.css" rel="stylesheet">
+		<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+
+
+		<link rel="stylesheet" href="Style.css">  <!--main css-->
+	   <link rel="stylesheet" href="property.css"> <!--css in property page-->
+		
+   
+	  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  <link rel="stylesheet" href="/resources/demos/style.css">
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  
+	  <script>				<!--tabs-->
+	  $( function() {
+		$( "#tabs" ).tabs();
+	  } );
+	  </script>
+    
+</head>
+
+<body>
+
+		<h1>Property Page</h1>		<!--topic-->
+		
+		<section class="container">
+		
+			<section id = "tabs">
+					<ul>											<!--name of the tabs-->
+						<li><a href="#image">Images </a></li>
+						<li><a href="#plan">Floor Plan </a></li>
+						<li><a href="#description">Description </a></li> 
+						<li><a href="#location">Location </a></li>
+					</ul>
+
+
+				<section id="image">
+					<section class="gallery1">			<!--image tab-->
+						<br><br><p>
+						<a href="images/prop1pic4.jpg" ><img src="images/prop1pic4.jpg"/></a>
+						
+								<article class="" id="artical33"><strong>Petts Wood Road, Petts Wood, Orpington<br>House <br> Rs.650000/= <br><strong></article> <!--add article to display location,type & price-->
+						</section>
+						<section id="gallery2>
+						<a href="images/prop1pic1small.jpg" ><img src="images/prop1pic1small.jpg"/></a>
+						<a href="images/prop1pic2small.jpg"><img src="images/prop1pic2small.jpg"/></a>
+						<a href="images/prop1pic3small.jpg"><img src="images/prop1pic3small.jpg"/></a>
+						<a href="images/prop1pic4small.jpg"><img src="images/prop1pic4small.jpg"/></a>
+						<a href="images/prop1pic4small.jpg"><img src="images/prop1pic4small.jpg"/></a>
+						<a href="images/prop1pic5small.jpg"><img src="images/prop1pic5small.jpg"/></a>
+						<a href="images/prop1pic6small.jpg"><img src="images/prop1pic6small.jpg"/></a></p>
+					</section>
+				</section>
+
+				<section id="plan">				<!--floor plan-->
+					<section class="gallery1">
+						<br><a href="images/prop1Plan.jpg" ><img src="images/prop1Plan.jpg"/></a>
+					</section>
+				</section>
+
+				<section id="description">		<!--discription-->
+				   <br><br> <p> Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior... </p>
+				</section>
+
+				<section id="location">		<!--location on google map-->
+					<br><p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6749016642543!2d0.08008871565246209!3d51.39065277961617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1609433551004!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</p>
+				</section>
+
+			</section>
+
+		</section>
+
+
+		<p id="prop1">
+			<button class="add">Add Favourites</button>		<!--add button to send to favourites-->
+			<button class="remove">Remove Favourites</button><!--remove from favorites-->
+		</p>
+
+</body>
+</html>
